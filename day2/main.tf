@@ -1,5 +1,8 @@
-resource "aws_s3_bucket" "mys3" {
-    bucket = var.bucket_my
-    
-  
+resource "aws_s3_bucket" "mybuk" {
+  # This grants public read access (caution!)
+
+  # Optional arguments
+  tags = {
+    Name = "mybuk"
+  }
 }
