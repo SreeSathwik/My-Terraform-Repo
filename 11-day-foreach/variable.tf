@@ -13,6 +13,3 @@ variable "naruto" {
 variable "subnet_id" {
   default = ""
 }
-variable "count" {
-  default = 
-}
